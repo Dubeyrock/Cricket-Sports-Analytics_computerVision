@@ -1,7 +1,4 @@
-# Cricket-Sports-Analytics_computerVision
-A computer vision pipeline for tracking cricket players, umpires, and ball, projecting them onto a 2D tactical map in Hawk-Eye style.
-
-# 🏏 Cricket Sports Analytics - Hawk-Eye Style Tracking System
+## 🏏 Cricket Sports Analytics - Hawk-Eye Style Tracking System
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
