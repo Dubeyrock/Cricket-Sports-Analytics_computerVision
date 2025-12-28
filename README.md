@@ -7,10 +7,7 @@
 
 A computer vision pipeline for tracking cricket players, umpires, and ball, projecting them onto a 2D tactical map in Hawk-Eye style.
 
-## 📸 Demo
-
-![Demo GIF](assets/demo.gif)
-*Tactical map visualization with player tracking*
+*
 
 ## ✨ Features
 
@@ -21,6 +18,3 @@ A computer vision pipeline for tracking cricket players, umpires, and ball, proj
 - **Data Export**: JSON tracking data for further analysis
 - **Batch Processing**: Process multiple videos automatically
 
-
-git clone https://github.com/yourusername/cricket-sports-analytics.git
-cd cricket-sports-analytics
