@@ -1,20 +1,24 @@
-## 🏏 Cricket Sports Analytics - Hawk-Eye Style Tracking System
+# Cricket Sports Analytics
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![OpenCV](https://img.shields.io/badge/OpenCV-4.8.0-green.svg)](https://opencv.org/)
-[![YOLOv8](https://img.shields.io/badge/YOLO-v8-red.svg)](https://ultralytics.com/yolov8)
+A computer vision pipeline for tracking cricket entities and generating Hawk-Eye style tactical maps.
 
-A computer vision pipeline for tracking cricket players, umpires, and ball, projecting them onto a 2D tactical map in Hawk-Eye style.
+## Features
 
-*
-
-## ✨ Features
-
-- **Multi-object Tracking**: Real-time tracking of players, ball, and umpires with stable IDs
+- **Multi-entity Detection**: Players, ball, umpire detection using YOLOv8
+- **Multi-object Tracking**: Stable ID tracking with Kalman filter
 - **Team Classification**: Automatic team identification based on jersey colors
-- **2D Projection**: Perspective transformation to top-down tactical map
-- **Hawk-Eye Visualization**: Professional sports broadcast-style tactical view
-- **Data Export**: JSON tracking data for further analysis
-- **Batch Processing**: Process multiple videos automatically
+- **2D Projection**: Top-down tactical map projection using homography
+- **Visualization**: Annotated video + synchronized tactical map
 
+## Installation
+
+```bash
+# Clone repository
+git clone https://github.com/yourusername/cricket_sports_analytics.git
+cd cricket_sports_analytics
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Download pre-trained model
+wget -P models/ https://your-model-url/yolov8_cricket.pt

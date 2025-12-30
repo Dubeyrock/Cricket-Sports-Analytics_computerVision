@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+cricket_env/
+
+# Data (VERY IMPORTANT)
+data/raw_videos/
+data/outputs/
+
+# Videos
+*.mp4
+*.avi
+*.mov
+
+# OS
+.DS_Store
+Thumbs.db
