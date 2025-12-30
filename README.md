@@ -41,29 +41,10 @@
   - Downloads
 - Session-based caching (no reprocessing)
 
----
-
-## 🖥 Demo
+<img width="1536" height="1024" alt="images" src="https://github.com/user-attachments/assets/7a046a63-e135-4b2a-aefb-5b5bfd4a2f13" />
 
 
 
-## Installation
-
-```bash
-# Clone repository
-git clone https://github.com/yourusername/cricket_sports_analytics.git
-cd cricket_sports_analytics
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Download pre-trained model
-
-wget -P models/ https://your-model-url/yolov8_cricket.pt
-
-
-
-````
 
 ### 🧪 How It Works
 
@@ -118,5 +99,6 @@ wget -P models/ https://your-model-url/yolov8_cricket.pt
 Shivam Dubey
 B.Tech CSE (2024)
 AI / ML / Data Science Enthusiast
+
 
 
