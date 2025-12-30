@@ -40,23 +40,12 @@
   - Tracks & CSV
   - Downloads
 - Session-based caching (no reprocessing)
+  
 
 <img width="1536" height="1024" alt="images" src="https://github.com/user-attachments/assets/7a046a63-e135-4b2a-aefb-5b5bfd4a2f13" />
 
 
 
-
-### 🧪 How It Works
-
--User selects or uploads a cricket video
-
--YOLOv8 detects players and ball
-
--Objects are projected to a tactical pitch
-
--Ball trajectory & heatmap are generated
-
--Outputs are visualized & made downloadable
 
 ### 📦 Outputs
 
@@ -67,38 +56,6 @@
 🔥 Ball heatmap (*_heatmap.png)
 
 📄 Tracks CSV (*_tracks.csv)
-
-### 🧠 Tech Stack
-
--Python
-
--YOLOv8 (Ultralytics)
-
--OpenCV
-
--Streamlit
-
--NumPy / Pandas
-
-### 💡 Future Improvements
-
--ByteTrack integration (persistent IDs)
-
--Team classification using jersey color clustering
-
--Shot type classification
-
--Player speed & distance metrics
-
--Match report PDF export
-
--Cloud deployment (Streamlit Cloud / AWS)
-
-### 👨‍💻 Author
-
-Shivam Dubey
-B.Tech CSE (2024)
-AI / ML / Data Science Enthusiast
 
 
 
