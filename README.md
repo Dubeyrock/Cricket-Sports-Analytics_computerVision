@@ -1,4 +1,4 @@
-# Cricket Sports Analytics
+# Cricket Analytics Dashboard | Computer Vision Project
 
 🏏 End-to-end Cricket Analytics Dashboard using YOLOv8 & Streamlit. Detects players & ball, generates tactical pitch maps, ball heatmaps, match statistics, and downloadable annotated videos — built with production-ready computer vision pipelines.
 
@@ -65,7 +65,7 @@ wget -P models/ https://your-model-url/yolov8_cricket.pt
 
 ````
 
-🧪 How It Works
+### 🧪 How It Works
 
 -User selects or uploads a cricket video
 
@@ -77,7 +77,7 @@ wget -P models/ https://your-model-url/yolov8_cricket.pt
 
 -Outputs are visualized & made downloadable
 
-📦 Outputs
+### 📦 Outputs
 
 🎞 Annotated video (*_annotated.mp4)
 
@@ -87,7 +87,7 @@ wget -P models/ https://your-model-url/yolov8_cricket.pt
 
 📄 Tracks CSV (*_tracks.csv)
 
-🧠 Tech Stack
+### 🧠 Tech Stack
 
 -Python
 
@@ -99,7 +99,7 @@ wget -P models/ https://your-model-url/yolov8_cricket.pt
 
 -NumPy / Pandas
 
-💡 Future Improvements
+### 💡 Future Improvements
 
 -ByteTrack integration (persistent IDs)
 
@@ -113,9 +113,10 @@ wget -P models/ https://your-model-url/yolov8_cricket.pt
 
 -Cloud deployment (Streamlit Cloud / AWS)
 
-👨‍💻 Author
+### 👨‍💻 Author
 
 Shivam Dubey
 B.Tech CSE (2024)
 AI / ML / Data Science Enthusiast
+
 
