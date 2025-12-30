@@ -1,0 +1,27 @@
+# Create this directory and file
+model_path: yolov8x.pt
+conf_threshold: 0.5
+iou_threshold: 0.3
+
+# Tracking parameters
+max_age: 30
+min_hits: 3
+max_cosine_distance: 0.2
+
+# Field parameters
+field_template: assets/cricket_field_template.jpg
+field_template: data/raw_videos
+field_length: 20.12
+field_width: 3.05
+
+# Video processing
+output_fps: 30
+output_resolution: [1280, 720]
+tactical_map_size: [800, 600]
+
+# Colors for visualization
+team_colors:
+  team_a: [255, 0, 0]
+  team_b: [0, 0, 255]
+  ball: [0, 255, 0]
+  umpire: [255, 255, 0]
