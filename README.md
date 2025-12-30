@@ -1,14 +1,51 @@
 # Cricket Sports Analytics
 
-A computer vision pipeline for tracking cricket entities and generating Hawk-Eye style tactical maps.
+🏏 End-to-end Cricket Analytics Dashboard using YOLOv8 & Streamlit. Detects players & ball, generates tactical pitch maps, ball heatmaps, match statistics, and downloadable annotated videos — built with production-ready computer vision pipelines.
 
-## Features
+## 🚀 Features
 
-- **Multi-entity Detection**: Players, ball, umpire detection using YOLOv8
-- **Multi-object Tracking**: Stable ID tracking with Kalman filter
-- **Team Classification**: Automatic team identification based on jersey colors
-- **2D Projection**: Top-down tactical map projection using homography
-- **Visualization**: Annotated video + synchronized tactical map
+### 🎥 Video Analytics
+- Player & ball detection using **YOLOv8**
+- Annotated output video (bounding boxes + labels)
+- Side-by-side **Original vs Annotated** preview
+
+### 🗺 Tactical Map Intelligence
+- Real-time projection of players & ball onto a **cricket pitch**
+- Ball **trajectory visualization**
+- Dedicated **tactical map video**
+
+### 🔥 Heatmap & Shot Analysis
+- Ball movement heatmap
+- Ball touch count
+- Visual understanding of shot distribution
+
+### 📊 Match Statistics (Recruiter Favorite)
+- Total frames processed
+- Total detections
+- Runtime & FPS
+- Ball touches
+
+### 🧠 Tracking & Data Export
+- Object tracking (simple tracker, ByteTrack-ready)
+- Tracks CSV export (frame-wise positions)
+- Downloadable annotated videos, tactical videos & heatmaps
+
+### 🎨 Professional UI (Streamlit)
+- Sidebar-based controls
+- Organized tabs:
+  - Overview
+  - Preview
+  - Tactical Map
+  - Heatmap & Trajectory
+  - Tracks & CSV
+  - Downloads
+- Session-based caching (no reprocessing)
+
+---
+
+## 🖥 Demo
+
+
 
 ## Installation
 
@@ -21,4 +58,5 @@ cd cricket_sports_analytics
 pip install -r requirements.txt
 
 # Download pre-trained model
+
 wget -P models/ https://your-model-url/yolov8_cricket.pt
