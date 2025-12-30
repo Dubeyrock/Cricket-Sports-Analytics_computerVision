@@ -60,3 +60,62 @@ pip install -r requirements.txt
 # Download pre-trained model
 
 wget -P models/ https://your-model-url/yolov8_cricket.pt
+
+
+
+````
+
+🧪 How It Works
+
+-User selects or uploads a cricket video
+
+-YOLOv8 detects players and ball
+
+-Objects are projected to a tactical pitch
+
+-Ball trajectory & heatmap are generated
+
+-Outputs are visualized & made downloadable
+
+📦 Outputs
+
+🎞 Annotated video (*_annotated.mp4)
+
+🗺 Tactical map video (*_tactical.mp4)
+
+🔥 Ball heatmap (*_heatmap.png)
+
+📄 Tracks CSV (*_tracks.csv)
+
+🧠 Tech Stack
+
+-Python
+
+-YOLOv8 (Ultralytics)
+
+-OpenCV
+
+-Streamlit
+
+-NumPy / Pandas
+
+💡 Future Improvements
+
+-ByteTrack integration (persistent IDs)
+
+-Team classification using jersey color clustering
+
+-Shot type classification
+
+-Player speed & distance metrics
+
+-Match report PDF export
+
+-Cloud deployment (Streamlit Cloud / AWS)
+
+👨‍💻 Author
+
+Shivam Dubey
+B.Tech CSE (2024)
+AI / ML / Data Science Enthusiast
+
